@@ -207,7 +207,8 @@ ul {
     background-color: #2E2F42;
     color: #E7E9FC;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    padding: 100px 0;
 }
 
 
@@ -220,7 +221,9 @@ ul {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration: none
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-accent {

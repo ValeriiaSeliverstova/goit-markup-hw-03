@@ -43,26 +43,19 @@ header {
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 15px;
+
 }
 
 ul {
     list-style: none;
 }
 
-nav {
+.nav {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
-
-nav ul, .address ul {
-    display: flex;
-    gap: 40px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    align-self: center;
-}
-
 
 .nav-item, .address-item {
     font-size: 16px;
@@ -75,6 +68,7 @@ nav ul, .address ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0; 
 }
 
 .nav-item:hover, .nav-item:focus {
@@ -123,7 +117,7 @@ nav ul, .address ul {
 
 .hero-content {
     background-color: #2e2f42;
-    
+
 }
 
 .hero-title {

@@ -37,7 +37,6 @@ body {
     list-style: none;
     display: flex;
     gap: 40px;
-    padding: 24px 0; 
 }
 
 .list-item:last-child {
@@ -45,6 +44,7 @@ body {
 }
 
 .container {
+    justify-content: space-between;
     display: flex;
     width: 1158px;
     padding-left: 16px;
@@ -72,6 +72,7 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .nav-item:hover, .nav-item:focus {

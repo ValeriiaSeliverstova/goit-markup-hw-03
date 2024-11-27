@@ -31,12 +31,15 @@ body {
     border-bottom: 1px solid #E7E9FC;
   }
 
-  .list, .list-item {
+.list, .list-item {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     gap: 40px;
+}
+.section-list .list-item {
+        width: calc((100% - 72px) / 4);
 }
 
 .list-item:last-child {
@@ -191,7 +194,7 @@ body {
     margin-bottom: 8px;
 }
 
-.section-title {
+.section-list .list-item .section-heading {
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;

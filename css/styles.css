@@ -281,7 +281,7 @@ body {
   border-radius: 0 0 4px 4px;
 }
 .section-team .section-container {
-  padding: 32px 0;
+  padding-top: 32px 0;
 }
 .section-team .section-container .section-heading {
   letter-spacing: 0.02em;

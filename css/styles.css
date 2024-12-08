@@ -50,6 +50,10 @@ body {
   justify-content: space-between;
 }
 
+.header .list-item {
+  padding: 24px 0;
+}
+
 .list,
 .list-item {
   margin: 0;
@@ -241,11 +245,13 @@ body {
   padding: 120px 0;
 }
 .section-team .container {
+  padding: 32px 0;
 }
 .section-team .section-title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
+  margin-bottom: 72px;
 }
 .section-team .section-list {
   margin: 68px 0 0;
@@ -281,9 +287,12 @@ body {
   letter-spacing: 0.02em;
   font-size: 20px;
   padding-bottom: 10px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .section-team .section-paragraph {
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .section-portfolio {
@@ -294,20 +303,21 @@ body {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
+  margin-bottom: 72px;
 }
 .section-portfolio .section-list {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 48px 24px;
   list-style: none;
   margin: 72px 0 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 .section-portfolio .portfolio-item {
   display: flex;
   flex-direction: column;
-  gap: 8px; /* Space between title and paragraph */
-  border: 1px solid #e7e9fc;
+  gap: 0;
   background-color: #fff;
 }
 .section-portfolio .portfolio-item img {
@@ -315,7 +325,10 @@ body {
   height: auto;
 }
 .section-portfolio .section-text {
-  padding: 26px 15px 34px;
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
 }
 
 .section-portfolio .section-heading {

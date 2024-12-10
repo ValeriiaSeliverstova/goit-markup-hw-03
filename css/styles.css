@@ -277,7 +277,7 @@ body {
   width: calc((100% - 72px) / 4);
 }
 .section-team .section-container {
-  padding-top: 32px 0;
+  padding: 32px 0;
 }
 
 .section-team .section-image {

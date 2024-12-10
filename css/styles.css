@@ -215,11 +215,12 @@ body {
   max-width: 1128px;
 }
 .section-services .list-item {
-}
-.section-services .section-container {
   max-width: 264px;
+  max-height: 104px;
   height: 104px;
+  display: block;
 }
+
 .section-services .section-heading {
   display: flex;
   margin-bottom: 8px;
@@ -273,10 +274,14 @@ body {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
-  max-width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .section-team .section-container {
   padding-top: 32px 0;
+}
+
+.section-team .section-image {
+  width: 100%;
 }
 .section-team .section-container .section-heading {
   letter-spacing: 0.02em;
